@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="img/H.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFELINE HOSPITAL</title>
+
+</head>
+
+<!-- <link href="https://fonts.google.com/specimen/Arizonia" rel="stylesheet">
+<link rel="stylesheet" href="style.css"> -->
+ <style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/hospital.jpg');
+        /* height: 4554px; */
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 22px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 80px;
+         margin-left:36px ; 
+        /* filter: invert(100%); */
+        /* border-image-width: center; */
+        background-position: center;
+    }
+
+    .left div {
+       text-align: center;
+       font-size: 20px;
+    }
+
+
+
+
+    .mid {
+        /* color: black; */
+        display: block;
+        width: 890px;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        /* color: aliceblue;  */
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(21, 22, 22);
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: rgb(62, 92, 132);
+        text-decoration: underline;
+
+    }
+
+    .btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px 9px;
+        background-color: #7fcbc3;
+        color: black;
+        padding: 3px 4px;
+        border: 2px solid rgb(72, 121, 133);
+        border-radius: 9px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(56, 120, 140);
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 90px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 10px;
+
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        border: 2px solid black;
+        padding: 1px;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+     .contain {
+        border: 2px solid black;
+        margin: 90px 900px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left:15px ;
+        margin-right:20px; */
+        padding-top: 52px;
+        padding-left:0px ;
+        padding-bottom:0px ;
+        padding-right: 0px; */
+        padding: 75px;
+        width: 33%;
+        border-radius: 10px; 
+    } 
+     .form-grp{ 
+         text-align: center;
+        display: block;
+        width: 508px;
+        border: 2px solid black;
+        padding: 1px;
+        margin: 11px 900px;
+         margin-bottom: 400px; 
+         border-radius: 8px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */ */
+        
+         
+    }
+</style> 
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/H.jpg" alt="">
+            <div>LIFE LINE HOSPITAL</div>
+
+
+        </div>
+        <div class="mid">
+            <!-- I am mid -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Patients and Visitors</a></li>
+                <li><a href="#">Social initiatives</a></li>
+                <!-- <li><a href="#">Academics</a></li> -->
+                <!-- <li><a href="#">carrier</a></li> -->
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="9423338678"target="_blank">Call us now</a></button><button class="btn"><a href="chavantanvee369@gmail.com"target="_blank">Email us</a></button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <!-- I am a container -->
+        <h1>Registration Form</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                NAMe: <input type="text" name="" placeholder="Enter  patient's name">
+                AGe: <input type="number" name="" placeholder="Enter patient's Age">
+                EMAIL: <input type="email" name="" placeholder="Enter email">
+               <!-- ADDRESS: <input type="text" name="" placeholder="society"> -->
+                ADDRESS:<input type="text" name="" placeholder="street address">
+                <input type="text" name="" placeholder="City">
+                <input type="text" name="" placeholder="Postal/zip code">
+                <input type="text" name="" placeholder="state">
+                <div>
+                <label for="country">Country</label>
+        <select name="mycountry" id="country"> 
+             <option value="America">America</option>
+            <option value="Australia">Australia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Afganistan">Afganistan</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Brazil">Brazil</option>
+            <option value="China">China</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Egypt">Egypt</option>
+            <option value="England">England</option>
+            <option value="France">France</option>
+            <option value="Greece">Greece</option>
+            <option value="Greenland">Greenland</option>
+            <option value="Hungary">Hungary</option>
+            <option value="India">India</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Japan">Japan</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Maleshiya">Maleshiya</option>
+            <option value="Newzealand">Newzealand</option>
+            <option value="Netherland">Netherland</option>
+            <option value="Peru">Peru</option>
+            <option value="Romania">Romania</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Scotland">Scotland</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Uganda">Uganda</option>
+            <option value="vatican city">vatican city</option>
+            <option value="Whales">Whales</option>
+
+        </select>
+    </div>
+                PHONE NUMBER: <input type="number" name="" placeholder="Enter phone number">
+                DATE OF BIRTH: <input type="date" name="" placeholder="myDate">
+                TAKING ANY MEDICATION CURRENTLY?: <input type="checkbox" name="mycheckbox" placeholder="">
+                GENDER: MALE <input type="radio" name="mygender" placeholder="">
+                FEMALE <input type="radio" name="mygender" placeholder="">
+                OTHER <input type="radio" name="mygender" placeholder="">
+                input <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            </div>
+            
+            <button class="btn">submit</button>
+        </form>
+    </div>
+    <!-- <div class="contain">
+         <!-- <div class="form-grp"> -->
+<!-- I am right -->
+
+        <!-- </div> -->
+    <!-- </div> -->
+</body>
+
+</html>
